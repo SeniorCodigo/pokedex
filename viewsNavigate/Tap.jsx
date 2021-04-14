@@ -14,7 +14,9 @@ const Tap = ({navigation}) => {
           />
           <Button 
             onPress={() => navigation.navigate('Home')}
-            title="Open Pokedex"/>
+            title="Press here to open Pokedex"
+            color='#e0082f'
+          />
           
         </SafeAreaView>
      );

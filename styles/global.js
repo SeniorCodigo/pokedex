@@ -20,7 +20,6 @@ const globalStyles = StyleSheet.create({
       borderColor: 'black',
       borderWidth: 1,
       textAlign: 'center',
-      marginTop:100,
       
     },
     space: {
@@ -31,17 +30,18 @@ const globalStyles = StyleSheet.create({
       width: 140,
       height: 140,
       left: 15,
-      marginTop: 150,
+      marginTop: 50,
   },
     backgroundImage:{
       position: 'absolute',
-      top: -11,
+      top: -100,
       backgroundColor: "#841584", 
     },
     text: {
-      top: -150,
+      top: -120,
       left: 170,
+      marginBottom: 50,
     }
 })
 
-export default globalStyles;
+  export default globalStyles;
